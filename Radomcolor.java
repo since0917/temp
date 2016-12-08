@@ -1,4 +1,4 @@
-package Swingtest;
+ï»¿package Swingtest;
 
 import java.awt.Color;
 import java.awt.Graphics;
@@ -17,7 +17,7 @@ public class Radomcolor extends JFrame implements ActionListener,ChangeListener 
 			new JSlider(JSlider.HORIZONTAL,0,255,0)
 	};
 	JLabel[] jl={
-		new JLabel("ºì:"),new JLabel("ÂÌ:"),new JLabel("À¶:")	
+		new JLabel("çº¢:"),new JLabel("ç»¿:"),new JLabel("è“:")	
 	};
 	JTextField[] jtf={
 		new JTextField("0"),new JTextField("0"),new JTextField("0")	
@@ -36,7 +36,7 @@ public class Radomcolor extends JFrame implements ActionListener,ChangeListener 
 			this.add(js[i]);
 			this.add(jl[i]);
 		}
-		this.setTitle("Ëæ»ú²úÉúÑÕÉ«");
+		this.setTitle("éšæœºäº§ç”Ÿé¢œè‰²");
 		
 		jb.setBounds(110, 280, 160, 30);
 		jb.setContentAreaFilled(false);
